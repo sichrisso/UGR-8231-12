@@ -1,4 +1,4 @@
-@media (max-width:1175px) {
+    @media (max-width:1175px) {
     .contact-info {
         display: flex;
         flex-wrap: wrap;
@@ -15,7 +15,7 @@
         padding: 0 50px;
         margin-left: 0px;
         z-index: 1;
-    } 
+    }
     header label {
         display: initial;
     }
@@ -29,10 +29,10 @@
         width: 100%;
         bottom: 0%;
         right: 0%;
-        top:0%;
-        left:0%;
+        top: 0%;
+        left: 0%;
         text-align: center;
-        border: 1px solid rgba(0,0,0,.1);
+        border: 1px solid rgba(0, 0, 0, .1);
         display: none;
         z-index: 2;
         padding: 50px;
@@ -42,25 +42,22 @@
     header .navigation ul li {
         display: block;
     }
-    #menu-bar:checked ~ .navigation {
-        display:initial;
+    #menu-bar:checked~.navigation {
+        display: initial;
     }
     .click-btn {
         margin-left: auto;
         text-align: center;
     }
-
     .button {
         z-index: -1;
     }
-
     .logo a {
         float: left;
         font-size: 20px;
         font-weight: 300;
     }
-
-    .hobby{
+    .hobby {
         display: flex;
         flex-wrap: wrap;
         padding: 10px;
@@ -69,48 +66,36 @@
     .about_fig p {
         margin: auto 0 0 auto;
     }
-
     .portfolio_fig p {
         margin: auto 0 0 auto;
     }
-
     .grid_classify {
         display: flex;
         flex-wrap: wrap;
         padding: 10px;
         column-gap: 20px;
     }
-
-    
-
     .foot {
         font-size: 1em;
         display: block;
         padding: 5px;
         column-gap: 10px;
     }
-
     .heading_text {
         text-align: center;
     }
-
     .service_container {
         margin-top: 5px;
         padding: 25px;
         text-align: center;
     }
-
-   
-
-@media (max-width: 400px) {
-    .heading_text h1 {
-        text-align: center;
+    @media (max-width: 400px) {
+        .heading_text h1 {
+            text-align: center;
+        }
     }
-
-}
-
-@media (max-width: 400px) {
-    footer {
-        bottom:0px;
+    @media (max-width: 400px) {
+        footer {
+            bottom: 0px;
+        }
     }
-}
